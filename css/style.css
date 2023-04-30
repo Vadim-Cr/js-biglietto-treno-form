@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+main{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* qui inizia il grande contenitore che conterrà tutto il testo */
+#big_container{
+    min-height: 10rem;
+    width: 70%;
+    margin: auto;
+    background-color: #B91547;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-size: 2rem;
+    margin: 1rem auto;
+
+}
+
+
+
+/* qui inizia il primo sub-container, dove si calcolerà l'importo in base all'età e ai km da percorrere */
+
+#container_top{
+    background-color: white;
+    width: 85%;
+    margin: auto;
+    margin: 1rem auto;
+
+}
+
+.red{
+    color: #B91547;
+}
+
+.sub_container_top{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.subx2_container_top{
+    padding: 0 1rem;
+}
+
+input{
+    padding: 0.4rem;
+    margin: 2rem;
+    border: #B91547 1px solid;
+    border-radius: 0.35rem;
+
+}
+
+button{
+    padding: 0.4rem;
+    margin: 1rem;
+    border: #B91547 2px solid;
+    border-radius: 0.35rem;
+    color: #B91547;
+    font-weight: bold;
+}
+
+/* qui inizaia il secondo subcontainer con il riepilogo delle info inserite */
+
+#container_bottom{
+    background-color: white;
+    width: 85%;
+    margin: 1rem auto;
+    padding: 1.5rem;
+}
+
+.bb_text{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#sub_container_bottom{
+    display: flex;
+    min-height: 10rem;
+}
+
+.container_bottom_left{
+    width: 25%; 
+    background-color: #757575;
+    padding: 2rem 0.5rem;
+    margin-top: 0.5rem ;
+
+}
+
+.container_bottom_right{
+    display: flex;
+    width: 75%;
+}
+
+table{
+    width: 100%;
+}
+
+tr{
+    margin: 1rem 0;
+}
+
+
+#my_id{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(245, 100, 124);
+    text-align: center;
+    background-color: #B91547;
+    width: 80%;
+    margin:  auto;
+    border: 5px solid darkcyan;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    -webkit-text-stroke: 2px purple;
+}
+
+
+/* ! DEBUG */
+[title~="container"]{
+
+}
