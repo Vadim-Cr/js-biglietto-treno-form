@@ -21,20 +21,20 @@
                         <h3 class="red">
                             NOME E COGNOME
                         </h3>
-                        <input type="text" placeholder="name and surname">
+                        <input id="myInputName" type="text" placeholder="name and surname">
                     </div>
                     <div class="subx2_container_top">
                         <h3 class="red">KM DA PERCORRERE</h3>
-                        <input type="text" placeholder="name and surname">
+                        <input id="myInputKm" type="text" placeholder="Km in cifre">
                     </div>
                     <div class="subx2_container_top">
                         <h3 class="red">FASCIA D'ETA'
                         </h3>
-                        <input type="text" placeholder="name and surname">
+                        <input id="myInputAge" type="text" placeholder="Anni compiuti in cifre">
                     </div>
                 </div>
                 <div class="sub_container_top">
-                    <button>Genera</button>
+                    <button id="create">Genera</button>
                     <button>Annula</button>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                         <div class="bb_text">
                             NOME PASSEGGERO
                         </div>
-                        <div id="nome_inserito">
+                        <div id="myOutputName">
                             Tuo Nome
                         </div>
                     </div>
@@ -63,10 +63,10 @@
                             </tr>
 
                             <tr>
-                              <td>Lois</td>
+                              <td id="myOutpuDiscount">Lois</td>
+                              <td id="random_number">Griffin</td>
                               <td>Griffin</td>
-                              <td>Griffin</td>
-                              <td>Griffin</td>
+                              <td id="my_id">Griffin</td>
                             </tr>
                           </table>
                     </div>
@@ -75,9 +75,7 @@
         </div>
         
     </main>
-    <div id="my_id">
-        <div id="my_id_inner"></div>
-    </div>
+
 
     <script src="logic.js" ></script>
 </body>

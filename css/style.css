@@ -118,7 +118,7 @@ tr{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    min-height: 2rem;
     font-size: 5rem;
     font-weight: bold;
     color: rgb(245, 100, 124);
